@@ -25,7 +25,7 @@ public class Reskin : BloonsTD6Mod
         foreach (var towerModel in gameModel.towers)
         {
             
-            towerModel.displayScale = 100f;
+            towerModel.displayScale = 75f;
             
             if (towerModel.baseId == "TimeMaster")
             {
