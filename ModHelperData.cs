@@ -1,4 +1,4 @@
-﻿namespace BabyYoda;
+﻿namespace BabyYodaReskin;
 
 public static class ModHelperData
 {

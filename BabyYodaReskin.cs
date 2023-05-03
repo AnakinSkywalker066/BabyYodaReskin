@@ -1,6 +1,6 @@
 ﻿using MelonLoader;
 using BTD_Mod_Helper;
-using BabyYoda;
+using BabyYodaReskin;
 using Il2CppAssets.Scripts.Models;
 using BTD_Mod_Helper.Extensions;
 using BTD_Mod_Helper.Api.Display;
@@ -8,7 +8,7 @@ using BTD_Mod_Helper.Api.Display;
 [assembly: MelonInfo(typeof(Reskin), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
-namespace BabyYoda;
+namespace BabyYodaReskin;
 
 public class Reskin : BloonsTD6Mod
 {
