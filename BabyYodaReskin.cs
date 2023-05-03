@@ -8,6 +8,9 @@ using JetBrains.Annotations;
 using Octokit;
 using Il2CppAssets.Scripts.Models.TowerSets;
 using Il2CppAssets.Scripts.Models.Towers;
+using UnityEngine;
+using Il2CppAssets.Scripts.Unity.Display;
+using BTD6E_Module_Helper;
 
 [assembly: MelonInfo(typeof(Reskin), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
