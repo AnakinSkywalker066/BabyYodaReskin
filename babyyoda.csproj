@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>BabyYoda</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>BabyYoda</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Assets\yoda.bundle" />
+    </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="TimeMaster">
+			<HintPath>$(BloonsTD6)\Mods\TimeMaster.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	
+    <Import Project="..\btd6.targets" />
+</Project>
