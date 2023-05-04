@@ -20,7 +20,7 @@ public class Reskin : BloonsTD6Mod
         {
             
             towerModel.displayScale = 5f;
-            towerModel.display = ((Il2CppAssets.Scripts.Utils.PrefabReference)"Icon");
+            
             if (towerModel.baseId == "TimeMaster")
             {
                 towerModel.ApplyDisplay<Yoda>();
