@@ -4,12 +4,6 @@ using BabyYodaReskin;
 using Il2CppAssets.Scripts.Models;
 using BTD_Mod_Helper.Extensions;
 using BTD_Mod_Helper.Api.Display;
-using Il2CppAssets.Scripts.Unity;
-using Il2CppNinjaKiwi.LiNK.DotNetZip.Zlib;
-using MelonLoader.NativeUtils;
-using static Il2CppSystem.Globalization.HebrewNumber;
-using static MelonLoader.MelonLaunchOptions;
-using UnityEngine.InputSystem;
 
 [assembly: MelonInfo(typeof(Reskin), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
@@ -25,8 +19,8 @@ public class Reskin : BloonsTD6Mod
         foreach (var towerModel in gameModel.towers)
         {
             
-            towerModel.displayScale = 75f;
-            
+            towerModel.displayScale = 5f;
+            towerModel.display = ((Il2CppAssets.Scripts.Utils.PrefabReference)"Icon");
             if (towerModel.baseId == "TimeMaster")
             {
                 towerModel.ApplyDisplay<Yoda>();
@@ -36,7 +30,7 @@ public class Reskin : BloonsTD6Mod
     public class Yoda : ModCustomDisplay
     {
         public override string AssetBundleName => "go";
-        public override string PrefabName => "yoda";
+        public override string PrefabName => "Grogu";
 
 
 
