@@ -13,26 +13,28 @@ namespace BabyYodaReskin;
 public class Reskin : BloonsTD6Mod
 {
     
+
     public override void OnNewGameModel(GameModel gameModel)
     {
         
         foreach (var towerModel in gameModel.towers)
         {
+
             
-            towerModel.displayScale = 5f;
-            
-            if (towerModel.baseId == "TimeMaster")
+             if (towerModel.baseId == "TimeMaster")
             {
                 towerModel.ApplyDisplay<Yoda>();
+                towerModel.displayScale = 7.5f;
             }
         }
     }
+
+    
     public class Yoda : ModCustomDisplay
     {
         public override string AssetBundleName => "go";
         public override string PrefabName => "Grogu";
-
-
+        
 
     }
 }
