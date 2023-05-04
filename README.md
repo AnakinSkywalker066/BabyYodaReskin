@@ -10,9 +10,10 @@
 ### GO TO https://discord.gg/1330studios FOR TIMEMASTER!!
 
 ### TIMEMASTER IS A PAID MOD!!! IT SUPPORTS THE SERVER!!!
-
 -Huge Thanks to Kosmic For Allowing Me To Reskin the TimeMaster!!!
-
 -Made This In Honor Of May The Forth!
+
+<img alt="Screenshot" height="400" src="Assets/yoda.png"/>
+
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)

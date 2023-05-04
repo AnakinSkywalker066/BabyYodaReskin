@@ -10,7 +10,12 @@
         <DebugType>embedded</DebugType>
     </PropertyGroup>
     <ItemGroup>
+      <None Remove=".gitattributes" />
       <None Remove="Assets\go.bundle" />
+      <None Remove="Assets\yoda.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include=".gitattributes" />
     </ItemGroup>
 
 	<ItemGroup>
