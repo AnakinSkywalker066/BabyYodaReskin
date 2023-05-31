@@ -4,6 +4,7 @@
 </a>
 
 <h1 align="center">Baby Yoda Reskin</h1>
+<h1 aling="center"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/AnakinSkywalker066/BabyYodaReskin/total?label=Total%20Dowloads"></h1>
 
 ### YOU MUST HAVE ACCESS TO THE TIME MASTER MOD!!!
 
