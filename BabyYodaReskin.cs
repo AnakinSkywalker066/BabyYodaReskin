@@ -20,13 +20,13 @@ public class Reskin : BloonsTD6Mod
             if (towerModel.baseId == "TimeMaster")
             {
                 towerModel.ApplyDisplay<Yoda>();
-                towerModel.displayScale = 7.5f;
+                towerModel.displayScale = 7f;
             }
         }
     }
     public class Yoda : ModCustomDisplay
     {
-        public override string AssetBundleName => "go";
-        public override string PrefabName => "Grogu";
+        public override string AssetBundleName => "babyyoda";
+        public override string PrefabName => "Yoda";
     }
 }
